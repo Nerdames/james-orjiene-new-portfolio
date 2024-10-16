@@ -98,3 +98,24 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
+// JavaScript to toggle fixed position on scroll
+document.addEventListener("DOMContentLoaded", function() {
+    const header = document.getElementById("main-header");
+
+    // Get the header's initial offset from the top of the document
+    const sticky = header.offsetTop;
+
+    // Function to add or remove the "fixed" class based on scroll position
+    function handleScroll() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("fixed");
+        } else {
+            header.classList.remove("fixed");
+        }
+    }
+
+    // Add event listener for scroll
+    window.addEventListener("scroll", handleScroll);
+});
