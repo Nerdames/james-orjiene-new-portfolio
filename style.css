@@ -54,7 +54,7 @@ a{
 
 header{
     position: sticky;
-    z-index: 1000;
+    z-index: 1001;
     top: 0;
     left: 0;
     grid-area: header;
@@ -581,7 +581,7 @@ li {
     justify-content: center;
     cursor: pointer;
     transition: 0.5s ease;
-    z-index: 999;
+    z-index: 1001;
     backdrop-filter: blur(10px);
 }
 
