@@ -437,7 +437,7 @@ section.active {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    z-index: 1;
+    z-index: 0;
 }
   
 .resume-header {
