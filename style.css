@@ -447,6 +447,7 @@ section.active {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    z-index: 1;
 }
   
 .resume-header div {
